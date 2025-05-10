@@ -1,0 +1,27 @@
+- dirname: 2025-05-10-14-10-24--a-helpful-name-for-this-run
+  test_cases: 225
+  model: gpt-3.5-turbo
+  edit_format: whole
+  commit_hash: 3daf7d4
+  pass_rate_1: 4.4
+  pass_rate_2: 7.6
+  pass_num_1: 10
+  pass_num_2: 17
+  percent_cases_well_formed: 100.0
+  error_outputs: 12
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 181
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 6
+  prompt_tokens: 1846308
+  completion_tokens: 161192
+  test_timeouts: 6
+  total_tests: 225
+  command: aider --model gpt-3.5-turbo
+  date: 2025-05-10
+  versions: 0.83.1.dev
+  seconds_per_case: 9.9
+  total_cost: 1.3059
